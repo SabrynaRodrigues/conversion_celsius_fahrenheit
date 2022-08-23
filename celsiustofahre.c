@@ -4,13 +4,13 @@
 
 main(){
 	setlocale(LC_ALL,"Portuguese");
-	// DECLARA«√O DE VARI¡VEIS
+	// DECLARA√á√ÉO DE VARI√ÅVEIS
 	double TC, TF;
 	
-	printf("Enter the tempeture in Celsius: ");
+	printf("Enter the temperature in Celsius: ");
 	scanf("%lf", &TC);
 	TF = TC * 1.8 + 32;
-	printf("The tempeture in Fahrenheit is %.2lf\n\n",TF);
+	printf("The temperature in Fahrenheit is %.2lf\n\n",TF);
 	
 	
 	
